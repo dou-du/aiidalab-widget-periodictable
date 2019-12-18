@@ -1,2 +1,0 @@
-recursive-include aiidalab_widget_periodictable/static *.*
-include aiidalab-widget-periodictable.json

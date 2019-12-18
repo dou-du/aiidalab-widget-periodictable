@@ -1,5 +1,5 @@
 
-aiidalab-widget-periodictable
+aiidalab_widget_periodictable
 =====================================
 
 Version: |release|
@@ -10,13 +10,13 @@ A jupyter widget to select chemical elements from the periodic table
 Quickstart
 ----------
 
-To get started with aiidalab-widget-periodictable, install with pip::
+To get started with aiidalab_widget_periodictable, install with pip::
 
-    pip install aiidalab-widget-periodictable
+    pip install aiidalab_widget_periodictable
 
 or with conda::
 
-    conda install aiidalab-widget-periodictable
+    conda install aiidalab_widget_periodictable
 
 
 Contents

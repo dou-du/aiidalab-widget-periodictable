@@ -27,7 +27,7 @@ module.exports = [
     entry: './src/extension.ts',
     output: {
       filename: 'index.js',
-      path: path.resolve(__dirname, 'aiidalab-widget-periodictable', 'nbextension', 'static'),
+      path: path.resolve(__dirname, 'aiidalab_widget_periodictable', 'nbextension', 'static'),
       libraryTarget: 'amd'
     },
     module: {
@@ -39,7 +39,7 @@ module.exports = [
   },
 
   /**
-   * Embeddable aiidalab-widget-periodictable bundle
+   * Embeddable aiidalab_widget_periodictable bundle
    *
    * This bundle is almost identical to the notebook extension bundle. The only
    * difference is in the configuration of the webpack public path for the
@@ -54,8 +54,8 @@ module.exports = [
         filename: 'index.js',
         path: path.resolve(__dirname, 'dist'),
         libraryTarget: 'amd',
-        library: "aiidalab-widget-periodictable",
-        publicPath: 'https://unpkg.com/aiidalab-widget-periodictable@' + version + '/dist/'
+        library: "aiidalab_widget_periodictable",
+        publicPath: 'https://unpkg.com/aiidalab_widget_periodictable@' + version + '/dist/'
     },
     devtool: 'source-map',
     module: {
@@ -76,7 +76,7 @@ module.exports = [
     output: {
       filename: 'embed-bundle.js',
       path: path.resolve(__dirname, 'docs', 'source', '_static'),
-      library: "aiidalab-widget-periodictable",
+      library: "aiidalab_widget_periodictable",
       libraryTarget: 'amd'
     },
     module: {

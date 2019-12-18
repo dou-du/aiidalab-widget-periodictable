@@ -1,4 +1,4 @@
-// Copyright (c) Dou Du
+// Copyright (c) Giovanni Pizzi, Dou Du
 // Distributed under the terms of the Modified BSD License.
 
 import {

@@ -19,7 +19,7 @@ from setuptools import setup
 
 
 # The name of the project
-name = 'aiidalab-widget-periodictable'
+name = 'aiidalab_widget_periodictable'
 
 # Ensure a valid python version
 ensure_python('>=3.4')
@@ -44,10 +44,10 @@ package_data_spec = {
 }
 
 data_files_spec = [
-    ('share/jupyter/nbextensions/aiidalab-widget-periodictable',
+    ('share/jupyter/nbextensions/aiidalab_widget_periodictable',
         nb_path, '*.js*'),
     ('share/jupyter/lab/extensions', lab_path, '*.tgz'),
-    ('etc/jupyter/nbconfig/notebook.d' , HERE, 'aiidalab-widget-periodictable.json')
+    ('etc/jupyter/nbconfig/notebook.d' , HERE, 'aiidalab_widget_periodictable.json')
 ]
 
 

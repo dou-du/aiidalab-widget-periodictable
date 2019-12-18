@@ -9,4 +9,4 @@ coverage:
       default:
         target: 0%
 ignore:
-  - "aiidalab-widget-periodictable/tests"
+  - "aiidalab_widget_periodictable/tests"

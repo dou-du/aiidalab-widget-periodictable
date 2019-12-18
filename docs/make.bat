@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXPROJ=aiidalab-widget-periodictable
+set SPHINXPROJ=aiidalab_widget_periodictable
 
 if "%1" == "" goto help
 

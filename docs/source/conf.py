@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# aiidalab-widget-periodictable documentation build configuration file
+# aiidalab_widget_periodictable documentation build configuration file
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'aiidalab-widget-periodictable'
+project = 'aiidalab_widget_periodictable'
 copyright = '2019, Giovanni Pizzi, Dou Du'
 author = 'Giovanni Pizzi, Dou Du'
 
@@ -69,7 +69,7 @@ author = 'Giovanni Pizzi, Dou Du'
 import os
 here = os.path.dirname(__file__)
 repo = os.path.join(here, '..', '..')
-_version_py = os.path.join(repo, 'aiidalab-widget-periodictable', '_version.py')
+_version_py = os.path.join(repo, 'aiidalab_widget_periodictable', '_version.py')
 version_ns = {}
 with open(_version_py) as f:
     exec(f.read(), version_ns)
@@ -116,7 +116,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'aiidalab-widget-periodictabledoc'
+htmlhelp_basename = 'aiidalab_widget_periodictabledoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -143,7 +143,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'aiidalab-widget-periodictable.tex', 'aiidalab-widget-periodictable Documentation',
+    (master_doc, 'aiidalab_widget_periodictable.tex', 'aiidalab_widget_periodictable Documentation',
      'Giovanni Pizzi, Dou Du', 'manual'),
 ]
 
@@ -154,8 +154,8 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc,
-    'aiidalab-widget-periodictable',
-    'aiidalab-widget-periodictable Documentation',
+    'aiidalab_widget_periodictable',
+    'aiidalab_widget_periodictable Documentation',
      [author], 1)
 ]
 
@@ -167,10 +167,10 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc,
-     'aiidalab-widget-periodictable',
-     'aiidalab-widget-periodictable Documentation',
+     'aiidalab_widget_periodictable',
+     'aiidalab_widget_periodictable Documentation',
      author,
-     'aiidalab-widget-periodictable',
+     'aiidalab_widget_periodictable',
      'A jupyter widget to select chemical elements from the periodic table',
      'Miscellaneous'),
 ]

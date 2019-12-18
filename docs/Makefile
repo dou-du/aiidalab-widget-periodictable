@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = aiidalab-widget-periodictable
+SPHINXPROJ    = aiidalab_widget_periodictable
 SOURCEDIR     = source
 BUILDDIR      = build
 

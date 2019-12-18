@@ -48,14 +48,14 @@ build: off
 before_test:
   - git config --global user.email appveyor@fake.com
   - git config --global user.name "AppVeyor CI"
-  - set "tmptestdir=%tmp%\aiidalab-widget-periodictable-%RANDOM%"
+  - set "tmptestdir=%tmp%\aiidalab_widget_periodictable-%RANDOM%"
   - mkdir "%tmptestdir%"
   - cd "%tmptestdir%"
 
 
 # to run your custom scripts instead of automatic tests
 test_script:
-  - 'py.test -l --cov-report xml:"%APPVEYOR_BUILD_FOLDER%\coverage.xml" --cov=aiidalab-widget-periodictable --pyargs aiidalab-widget-periodictable'
+  - 'py.test -l --cov-report xml:"%APPVEYOR_BUILD_FOLDER%\coverage.xml" --cov=aiidalab_widget_periodictable --pyargs aiidalab_widget_periodictable'
 
 on_success:
   - cd "%APPVEYOR_BUILD_FOLDER%"

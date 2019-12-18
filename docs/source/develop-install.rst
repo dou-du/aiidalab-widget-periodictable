@@ -3,7 +3,7 @@ Developer install
 =================
 
 
-To install a developer version of aiidalab-widget-periodictable, you will first need to clone
+To install a developer version of aiidalab_widget_periodictable, you will first need to clone
 the repository::
 
     git clone https://github.com/aiidalab/aiidalab-widget-periodictable
@@ -17,9 +17,9 @@ Next, install it with a develop install using pip::
 If you are planning on working on the JS/frontend code, you should also do
 a link installation of the extension::
 
-    jupyter nbextension install [--sys-prefix / --user / --system] --symlink --py aiidalab-widget-periodictable
+    jupyter nbextension install [--sys-prefix / --user / --system] --symlink --py aiidalab_widget_periodictable
 
-    jupyter nbextension enable [--sys-prefix / --user / --system] --py aiidalab-widget-periodictable
+    jupyter nbextension enable [--sys-prefix / --user / --system] --py aiidalab_widget_periodictable
 
 with the `appropriate flag`_. Or, if you are using Jupyterlab::
 

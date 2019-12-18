@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "aiidalab_widget_periodictable/extension": true
+  }
+}

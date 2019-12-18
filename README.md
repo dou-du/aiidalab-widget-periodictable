@@ -1,29 +1,39 @@
-
-# aiidalab-widget-periodictable
-
-[![Build Status](https://travis-ci.org/aiidalab/aiidalab-widget-periodictable.svg?branch=master)](https://travis-ci.org/aiidalab/aiidalab_widget_periodictable)
-[![codecov](https://codecov.io/gh/aiidalab/aiidalab-widget-periodictable/branch/master/graph/badge.svg)](https://codecov.io/gh/aiidalab/aiidalab-widget-periodictable)
-
+aiidalab-widget-periodictable
+=============================
 
 A jupyter widget to select chemical elements from the periodic table
 
-## Installation
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dou-du/aiidalab-widget-periodictable/master?urlpath=%2Fapps%2Fexamples%2Fwidget-demo.ipynb)
 
-You can install using `pip`:
+Installation
+------------
 
-```bash
-pip install aiidalab_widget_periodictable
-```
+**NOTE**: this package is not yet on pip.
 
-Or if you use jupyterlab:
+To install use pip:
 
-```bash
-pip install aiidalab_widget_periodictable
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
-```
+    $ pip install aiidalab_widget_periodictable
+    $ jupyter nbextension enable --py --sys-prefix aiidalab_widget_periodictable
 
-If you are using Jupyter Notebook 5.2 or earlier, you may also need to enable
-the nbextension:
-```bash
-jupyter nbextension enable --py [--sys-prefix|--user|--system] aiidalab_widget_periodictable
-```
+Install for the JupyterLab:
+
+    $ jlpm
+    $ jlpm run build
+    $ jupyter lab install .
+
+
+For a development installation (requires npm),
+
+    $ git clone https://github.com/aiidalab/aiidalab-widget-periodictable.git
+    $ cd aiidalab-widget-periodictable
+    $ pip install -e .
+    $ jupyter nbextension install --py --symlink --sys-prefix aiidalab_widget_periodictable
+    $ jupyter nbextension enable --py --sys-prefix aiidalab_widget_periodictable
+    $ jupyter lab install .
+
+Alternatively, you can also simply call the `reinstall.sh` script that calls the last three steps.
+
+After this, you need both to refresh the page, and restart the kernel.
+
+If you just changed the JS part, you can run a bit faster by running only
+the `./jsonlyreinstall.sh` script and then refreshing the page.

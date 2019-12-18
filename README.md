@@ -16,6 +16,7 @@ To install use pip:
     $ jupyter nbextension enable --py --sys-prefix aiidalab_widget_periodictable
 
 Install for the JupyterLab:
+
     $ jlpm
     $ jlpm run build
     $ jupyter lab install .
